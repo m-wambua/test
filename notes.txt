@@ -1,0 +1,117 @@
+PYTHON FROM SCRATCH
+ so python has 3 types of  numbers
+ integers do nothave a fraction in thekm
+ floating point it can store number with a fraction in it
+ complex it can store real and imaginary numbers
+
+
+ sequences ordered collection of elements
+
+ strings
+ tuples
+ lists
+
+ sets an un-ordered collection of elements
+
+ lists is a collection of objects. most general sequence provided by the language
+ and lists are mutable
+
+ a list can be 
+    a collection of homogenous(similar elements) like [1,2,3]
+    of different elements(heteorgenous) likr [1,'abs',2.3]
+    can also be empty([])
+    a list can contain lists as well
+
+
+tuples contains elements which can be treated as individuals or as a group
+
+tuples are important in swapping
+
+tuples are imutable just like strings
+
+CONDITIONAL STATEMENTS
+
+
+well apparently there are 2 ways to do it
+    if 
+    if-elif
+
+    so if<test> has to be followed bya colon (:)
+    and there is no need for indentation but using it will not result in an error
+    indentation is very key(using tabs)
+
+    any number of ifs can be nested
+
+    the test condition of an if must result in  a True or False
+
+    next would be the if-elif-else ladder
+
+    the ( | ) operator is an or
+
+    one can arguably use the ternary operator
+
+    now we encounter the get construct- its also present in C,C++ , Java  and even C# one could use the if -elif
+
+    additionally if can be used for input validation
+
+
+
+so next we will be doing looping
+so this comes in two variants in python, i.e while and for
+
+while repeats a block, which is indented until the test condition is met and one can come out of the loop using the break
+and continue feature.
+
+the for loop is used generally in lists tuples ,strings 
+
+so loops can be used to make patterns
+ additionally the can be used to create matrices
+
+
+ FUNCTIONS!!
+ if we want to do a big task then it is advisable to break it into smaller chunks making it more manageable
+
+ functions are units which perform a particular task, take some input and may give some output
+
+ features of a functions
+
+    modular programming
+    reusability of code
+    manageability
+        easy debugging
+        efficient
+
+basic terminology
+
+    name of a function
+    arguments-denote the input given to the function
+    return value
+
+definition and invocation- the definition of a function depicts the behavoir of the function. the task to be performed by the function is contaied in the definitions
+
+a function need only be defined once but it can be callec any number of times
+the definition contains the following:
+        name of the function(would atleast convey what the fucntion does)
+        parameter(list of parameters seperated by a comma(s)basically the input of the function)
+        body of the function(contains the code that impelements the task to be performed by the function)
+
+types of functions:
+    type(1) does not take any parameter(s) or return  anything
+    type(2) takes parameters bbut doesnt return anything
+    type(3) takes parameters and returns something
+
+
+advantages of arguments
+
+unlike C in python while defininng a function the types of arguments are not specified. this has the advantagesof giving different tpes of arguments in the same function
+
+
+implementing a search
+ if the element is present in a given list then its position should be printed otherwise a message "not found " should be printed
+
+ RECURSION calling a function within itself ways it can be used is in the fibonacci sequence and also in calculating the factorial of a number
+
+ recussion has its down side with its complexity being too high and the same task can be accomplished by dynamic programming
+
+
+
