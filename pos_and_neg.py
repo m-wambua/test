@@ -35,3 +35,8 @@ for i in T:
     print(i)
 print (T)
 
+##iteration through dictionaries
+Dict={'Programming in C#':499,'Algorithm Analysis and Design':599}
+print(Dict)
+for i in Dict:
+    print(i)
