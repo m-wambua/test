@@ -6,7 +6,7 @@ n=[]
 for num in L:
     if (num>0):
         p.append(num)
-    elif (num<0):
+    else :
         n.append(num)
 
 print ('the list of positive numbers is \t :',p)
