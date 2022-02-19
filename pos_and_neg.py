@@ -28,3 +28,10 @@ for i in string:
 print('the vowels in your string is/are \t :',vowels)
 print('the consonant(s) in your string is/are \t : ',constant)
 
+# what about iteration in tuples
+
+T=(1,2,3)
+for i in T:
+    print(i)
+print (T)
+
