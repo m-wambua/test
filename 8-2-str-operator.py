@@ -23,3 +23,12 @@ str1=input('enter a string\t:')
 num=int(input('enter a number \t :'))
 result1=num*str1
 print(result1)
+
+str1="Harsh Bhasin"
+len(str1)
+len("Harsh Bhasin")
+len("")
+str2="harsh bhasin"
+str2
+str2.capitalize()
+str2.title()

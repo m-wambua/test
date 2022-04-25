@@ -115,3 +115,126 @@ implementing a search
 
 
 
+ITERATIONS,GENERATORS AND COMPREHENSION
+
+the power of for!!
+it can be used to iterate through a list,tuple string or a dictionary
+
+this can also be done using the iter function and can be used to manipulate lists and strings tuples and files and even dictionaries
+additionally it ensures flexibility and additional powers to the programmer
+
+but alas we have seen something new the try  so what it does is:
+    first the try clause (the statement between the try and the except key word) is executed
+    if no exception occurs during  execution of the try, the except clause is skipped and the execution of the try statement is finished
+    if an exception occurs during execution of the try clause the rest of the clause is skipped.then if its type matches the exception named after the except keyword,the except clause is executed and then execution continues after the try/except block
+    if an exception occurs which does not match the exception named in the except clause,it is passed on to outer try statements; if no handler is found it is an unhandled exception and execution stops with a  message 
+
+defining iteratable objects onw can define  a class, in which __init__,__iter__ and __next__ can be defined as per  the requiremnt
+the __init__ function initializes the variables of the class, the iter defines the mechanism of iterations and the next method impelements the jump to the next item
+
+Generators - generators are functions that generate the requisite sequences.In a generator the values are generated as and when we proceed.
+So if one comes back to the function once a particular value is generated,then instead of starting from the beginning the function starts from the point where we left off
+Python has an inbuilt function called yield which helps to start from the point where we left off
+
+
+Comprehension a comprehension contains the input sequence along with the expression that represents the members
+a comprehension may also have the optional predicate expression
+
+
+FILE HANDLING
+
+The file handling mechanism;
+    In python, files are accessed using the file objects. the file needs to be opened first. this is done 
+    with the help of the open() function. the function takes the name of the file and the mode as its arguments.
+    the open function returns an object of the file.The object then uses the library fucntion. the object the uses
+    the library function toread the file,write into it or append it.finally the memory space occupied by the object
+    is freed using the close () function.
+
+    the open () function takes three arguments:
+        1. name if the file(string of characters (either a file name or a path))
+        2.mode in which the file is opened
+            r   -reading froma file
+            w   -write to a file;creates the file if it does not exist;truncate the file if it already exists
+            a   -append to the file; if the file does not exist this creates the file
+            r+  -open for read and write
+            a+  -append for both read and write
+            rb  -read a binary file
+            wb  -write a binary file
+            ab  -append mode for binary file
+            rb+ -r+ for a binary file
+            wb+ -w+ for a binary file
+            ab+ -a+ for a binary file
+        3.buffer string
+
+        the read () function
+            reads bytes in a string. it may take an integer argument indicating the nuber of bytes to read
+            if the argument is -1 the files must be read to the end. -1 is also the default argument
+
+        readline() and readlines()
+            the readline() method is used to read a lone until the newline character is read.
+            the readlines() method reads all the lines from a given file and returns a list of strings
+
+        write() and writelines()
+            the write() method writes the string in a given file.the method is complementary to the read()
+            the writelines() method writes a list of strings to the file
+
+        seek() the seek() method takes the cursor to the starting position in the given file.The position is decided
+        with the respect to the offset given.The offset can be 0,1 or 2."0" indicates the beginning of the file.The value "1" indicates the current positionand the value 
+        "2" indicates the "end of the file".
+
+        tall()
+        tell() is complementary to the seek() function.The function returns the position of the cursor
+
+
+        close()
+
+        The close() function closes the file.The object should be assigned to another file after it is closed.
+
+        fileno()
+
+        The fileno() function returns a descriptor for the file
+
+        The OS Methods
+        
+        The methods that deal with the issues related to operating systems help the programmer to create a generic
+        program.
+        os method    function
+        linesep      string used to seperate lines in a file
+        sep          used to seperate file pathname components
+        pathsep      delimit a set of file parameters
+        curdir       current directory
+        pardir       parent directory
+
+
+    Miscellaneous Functions and File Attributes
+
+    flush()  flushes the internal buffer
+    isatty() the function returns a "1 " if the file is a tty-like device 
+
+    File Attributes
+
+    file attribute      importance
+    file.closed         1 if file is closec,0 otherwise
+    file.mode           access mode
+    file.name           name of the file   
+    
+
+    Command line arguments
+
+    if the compiler knows the name of the script, then the name of the script along with thr additional arguments that may be given along are stored
+    in a list called argv.
+    the argv variable is in the sys module. the arguments along with the name of the script , are called  the command line arguments
+
+
+STRINGS 
+sequence of characters
+can be enclosed in single or double quotes or even tripple quotes
+
+difference between string and lists us non-mutabilty
+once a vaalue is given to a string one canot change the value of a character present to a particular position
+
+Functions for string handling
+len()- function returns a characters in a string.
+capitalize()-this function capitalzes the first character of the string.
+title()-this function is used in capitalizing the first characters of the string
+find()-it is used to locate of a given sub-string ina given string

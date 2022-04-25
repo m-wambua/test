@@ -1,6 +1,6 @@
 ## file handling
 
-f=open('test2.txt','r')
+f=open('test.txt','r')
 print('name of the file\t:',f.name)
 print('mode\t:',f.mode)
 print('file closed?\t:',f.closed)

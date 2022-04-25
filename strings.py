@@ -18,3 +18,6 @@ print(some1)
 some2=some[2:]
 print(some2)# removing from the second element
 
+
+
+

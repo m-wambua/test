@@ -28,4 +28,4 @@ except StopIteration:
 # say we want to concanate 2 lists into one by iterationg over individual elements of the lists using the list function and then
 #then sortsthe concanates
 
-l1=[3,6,1,8,5]
+

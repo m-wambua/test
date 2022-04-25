@@ -1,4 +1,6 @@
+# but it works here
 s='color'
+
 i=iter(s)
 vow=''
 cons=''
