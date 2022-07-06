@@ -32,3 +32,33 @@ str2="harsh bhasin"
 str2
 str2.capitalize()
 str2.title()
+
+# the string operators
+# The concatenation operator(+)
+# the concatenation operator takes two strings and produces a concatenated string
+# it works on values as well as variables 
+
+# membership operator
+# this checks if a given string is present in a given list
+# the operator returns a true if the string is part of a given list otherwise it returns a false
+
+# it may also be noted that this operator is usedin manipulation operation
+
+
+# functions for string handling
+
+#len()
+#   returns the number of characters in a string
+#capitalize()
+#   capitlizes the first character of the string
+#find()
+#   used in location of a substring
+#count()
+#    number of occurences of a particular substring
+#endswith()
+#   can determine is a  string ends with a particular substring
+# encode()
+#   takes two parameters
+#       value and errors
+
+
